@@ -1,0 +1,35 @@
+{
+  "name": "skype-poc",
+  "version": "1.0.0",
+  "description": "Quick tech test of native Skype client integration",
+  "main": "main.js",
+  "author": "Kim Burgess <kim@acaprojects.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "env": {
+      "es6": true,
+      "node": true,
+      "browser": true
+    },
+    "rules": {
+      "no-console": 0,
+      "semi": 2
+    },
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    }
+  },
+  "devDependencies": {
+    "electron": "~1.6.2"
+  },
+  "dependencies": {
+    "electron-edge": "^6.5.5",
+    "electron-prebuilt-compile": "^1.6.6",
+    "eslint": "^3.19.0"
+  }
+}
