@@ -1,3 +1,5 @@
-import skype from './skype';
+import * as skype from 'skype-native';
 
-window.startCall = skype.startCall;
+window.skype = skype;
+
+//skype.call('test@example.com');
