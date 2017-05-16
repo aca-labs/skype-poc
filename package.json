@@ -2,7 +2,7 @@
   "name": "skype-poc",
   "version": "1.0.0",
   "description": "Quick tech test of native Skype client integration",
-  "main": "main.js",
+  "main": "src/main.js",
   "author": "Kim Burgess <kim@acaprojects.com>",
   "license": "MIT",
   "scripts": {
