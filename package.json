@@ -6,9 +6,7 @@
   "author": "Kim Burgess <kim@acaprojects.com>",
   "license": "MIT",
   "scripts": {
-    "start": "electron-forge start",
-    "package": "electron-forge package",
-    "make": "electron-forge make"
+    "start": "electron ."
   },
   "eslintConfig": {
     "extends": "eslint:recommended",
@@ -26,46 +24,8 @@
       "sourceType": "module"
     }
   },
-  "devDependencies": {
-    "babel-plugin-transform-async-to-generator": "^6.24.1",
-    "babel-preset-env": "^1.4.0",
-    "babel-preset-react": "^6.24.1",
-    "electron-prebuilt-compile": "1.6.7"
-  },
   "dependencies": {
-    "electron-compile": "^6.4.1",
-    "electron-edge": "^6.5.5",
-    "electron-prebuilt-compile": "1.6.6",
-    "eslint": "^3.19.0",
+    "electron-prebuilt-compile": "^1.6.6",
     "skype-native": "^0.1.6"
-  },
-  "config": {
-    "forge": {
-      "make_targets": {
-        "win32": [
-          "zip"
-        ],
-        "darwin": [
-          "zip"
-        ],
-        "linux": [
-          "deb",
-          "rpm"
-        ]
-      },
-      "electronPackagerConfig": {},
-      "electronWinstallerConfig": {
-        "name": ""
-      },
-      "electronInstallerDebian": {},
-      "electronInstallerRedhat": {},
-      "github_repository": {
-        "owner": "",
-        "name": ""
-      },
-      "windowsStoreConfig": {
-        "packageName": ""
-      }
-    }
   }
 }
