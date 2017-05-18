@@ -1,4 +1,4 @@
-import * as skype from 'skype-native';
+const skype = require('skype-native');
 
 window.skype = skype;
 
